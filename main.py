@@ -64,6 +64,7 @@ class Drinks(Resource):
         return result
 
     def delete(self, drink_id):
+
         del drinks_data[drink_id]
         return '', 204
 
